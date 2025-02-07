@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Task, Status, Priority } from '../types/Task'
+import { Task, Status} from '../types/Task'
 import { getStoredTasks, storeTasks } from '../utils/localStorage'
 
 export const useTasks = () => {
